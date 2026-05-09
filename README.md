@@ -193,8 +193,6 @@ The folder generated for the current job.
 
 Detected path of the generated 3D model.
 
-Usually a `.glb` or `.obj` file.
-
 ---
 
 ## job_id
