@@ -1,0 +1,492 @@
+{
+  "id": "684af696-355c-411e-bde4-6a00ee805bea",
+  "revision": 0,
+  "last_node_id": 21,
+  "last_link_id": 26,
+  "nodes": [
+    {
+      "id": 8,
+      "type": "LoadImage",
+      "pos": [
+        1741.6020624637015,
+        1349.059466879963
+      ],
+      "size": [
+        844.359375,
+        567.328125
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            25
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.18.1",
+        "Node name for S&R": "LoadImage",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "19651044.png",
+        "image"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "Preview3D",
+      "pos": [
+        2696.1083358400383,
+        949.6165876874816
+      ],
+      "size": [
+        1491.46875,
+        972.40625
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "camera_info",
+          "shape": 7,
+          "type": "LOAD3D_CAMERA",
+          "link": null
+        },
+        {
+          "name": "bg_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "model_file",
+          "type": "STRING,FILE_3D_GLB,FILE_3D_GLTF,FILE_3D_FBX,FILE_3D_OBJ,FILE_3D_STL,FILE_3D_USDZ,FILE_3D",
+          "widget": {
+            "name": "model_file"
+          },
+          "link": 26
+        }
+      ],
+      "outputs": [],
+      "title": "Preview 3D & Animation - not working",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.19.3",
+        "Node name for S&R": "Preview3D",
+        "Last Time Model File": "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/comfy_37c53e2a/comfy_37c53e2a_textured.glb",
+        "Resource Folder": "theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/comfy_37c53e2a",
+        "Scene Config": {
+          "showGrid": true,
+          "backgroundColor": "#282828",
+          "backgroundImage": "",
+          "backgroundRenderMode": "tiled"
+        },
+        "Camera Config": {
+          "cameraType": "perspective",
+          "fov": 35,
+          "state": {
+            "position": {
+              "x": 10,
+              "y": 10,
+              "z": 10.000000000000002
+            },
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "zoom": 1,
+            "cameraType": "perspective"
+          }
+        },
+        "Light Config": {
+          "intensity": 3
+        },
+        "Model Config": {
+          "upDirection": "original",
+          "materialMode": "original",
+          "showSkeleton": false
+        }
+      },
+      "widgets_values": [
+        "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/comfy_37c53e2a/comfy_37c53e2a_textured.glb",
+        ""
+      ]
+    },
+    {
+      "id": 16,
+      "type": "PreviewAny",
+      "pos": [
+        2712.6782059504976,
+        1989.2428757284638
+      ],
+      "size": [
+        716.421875,
+        337.84375
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 21
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Preview Output folder",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.19.3",
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 17,
+      "type": "PreviewAny",
+      "pos": [
+        3472.6744774202066,
+        1986.2260620883446
+      ],
+      "size": [
+        716.421875,
+        337.84375
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Preview Model Path",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.19.3",
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 18,
+      "type": "Z3VHy3DFromImage",
+      "pos": [
+        1745.9939310251314,
+        2069.452055183419
+      ],
+      "size": [
+        833.28125,
+        382.359375
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_folder",
+          "type": "STRING",
+          "links": [
+            21
+          ]
+        },
+        {
+          "name": "model_path",
+          "type": "STRING",
+          "links": [
+            22,
+            26
+          ]
+        },
+        {
+          "name": "job_id",
+          "type": "STRING",
+          "links": [
+            23
+          ]
+        },
+        {
+          "name": "input_image_path",
+          "type": "STRING",
+          "links": [
+            24
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Z3VHy3DFromImage"
+      },
+      "widgets_values": [
+        "/home/theboss/hy3d/Hunyuan3D-2.1-main/.venv/bin/python",
+        "/home/theboss/hy3d/Hunyuan3D-2.1-main/z3v_official_v3Comfyui.py",
+        "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output",
+        true,
+        20
+      ]
+    },
+    {
+      "id": 19,
+      "type": "PreviewAny",
+      "pos": [
+        2706.1500962596865,
+        2381.385263999151
+      ],
+      "size": [
+        716.421875,
+        337.84375
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Preview Job ID",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.19.3",
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 20,
+      "type": "PreviewAny",
+      "pos": [
+        3466.772594382213,
+        2382.909564896693
+      ],
+      "size": [
+        716.421875,
+        337.84375
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Preview input Image Path",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.19.3",
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": 21,
+      "type": "MarkdownNote",
+      "pos": [
+        1718.6655629576385,
+        987.6400843194183
+      ],
+      "size": [
+        878.578125,
+        241.34375
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "GUIDE",
+      "properties": {
+        "ue_properties": {
+          "version": "7.7",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "GitHub\n\n- [https://github.com/ZETALVX/Z3V-Image-to-3D-ComfyUI-Node)\n"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    }
+  ],
+  "links": [
+    [
+      21,
+      18,
+      0,
+      16,
+      0,
+      "STRING"
+    ],
+    [
+      22,
+      18,
+      1,
+      17,
+      0,
+      "STRING"
+    ],
+    [
+      23,
+      18,
+      2,
+      19,
+      0,
+      "STRING"
+    ],
+    [
+      24,
+      18,
+      3,
+      20,
+      0,
+      "STRING"
+    ],
+    [
+      25,
+      8,
+      0,
+      18,
+      0,
+      "IMAGE"
+    ],
+    [
+      26,
+      18,
+      1,
+      15,
+      2,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Image from which to create the 3D model.",
+      "bounding": [
+        1714.2200472358584,
+        1269.9803809277153,
+        889.7669984076267,
+        670.0686286507525
+      ],
+      "color": "#8A8",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Zetalvx - Z3v - Image-to-3d",
+      "bounding": [
+        1716.5540795634588,
+        1977.192176190928,
+        882.7649014248225,
+        527.69265666707
+      ],
+      "color": "#8A8",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "Image from which to create the 3D model.",
+      "bounding": [
+        2666.5052368972006,
+        861.5247235974809,
+        1559.6342764292153,
+        1904.7717299518706
+      ],
+      "color": "#8A8",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.38949370938026645,
+      "offset": [
+        -1045.8137516010067,
+        -474.3079721879244
+      ]
+    },
+    "frontendVersion": "1.42.11"
+  },
+  "version": 0.4
+}
