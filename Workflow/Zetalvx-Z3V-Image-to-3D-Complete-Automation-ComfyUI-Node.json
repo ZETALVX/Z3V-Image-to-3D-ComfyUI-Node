@@ -1,19 +1,19 @@
 {
   "id": "b2efad80-26f9-486d-9c4d-1fedc91e6e64",
   "revision": 0,
-  "last_node_id": 292,
-  "last_link_id": 424,
+  "last_node_id": 300,
+  "last_link_id": 434,
   "nodes": [
     {
       "id": 67,
       "type": "MarkdownNote",
       "pos": [
-        -1126.3320128383953,
-        1148.3863947370555
+        -1126.331976127686,
+        1148.3863956353425
       ],
       "size": [
         570,
-        823.171875
+        823.125
       ],
       "flags": {},
       "order": 0,
@@ -29,7 +29,7 @@
         }
       },
       "widgets_values": [
-        "Guide: [Subgraph](https://docs.comfy.org/interface/features/subgraph)\n\n## Model Links (for Local Users)\n\n**diffusion_models**\n\n- [qwen_image_2512_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors)\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n**loras**\n\n- [Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning/resolve/main/Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen_image_2512_fp8_e4m3fn.safetensors\n│   ├── 📂 text_encoders/\n│   │   └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 loras/\n│       └── Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors\n```\n\n\n** GitHub Z3V - image-to-3d**\n\n- [https://github.com/ZETALVX/Z3V-Image-to-3D-ComfyUI-Node)\n"
+        "Guide: [Subgraph](https://docs.comfy.org/interface/features/subgraph)\n\n## Model Links (for Local Users)\n\n**diffusion_models**\n\n- [qwen_image_2512_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors)\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n**loras**\n\n- [Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning/resolve/main/Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors)\n\n\n## Model Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen_image_2512_fp8_e4m3fn.safetensors\n│   ├── 📂 text_encoders/\n│   │   └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 loras/\n│       └── Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors\n```\n\n\n**GitHub Z3V - image-to-3d**\n\n- [https://github.com/ZETALVX/Z3V-Image-to-3D-ComfyUI-Node)\n"
       ],
       "color": "#222",
       "bgcolor": "#000"
@@ -38,15 +38,15 @@
       "id": 60,
       "type": "SaveImage",
       "pos": [
-        1883.7694792279447,
-        1064.4270181917034
+        1883.768835296584,
+        1064.427049732739
       ],
       "size": [
-        689.46875,
-        738.875
+        689.375,
+        738.75
       ],
       "flags": {},
-      "order": 12,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -89,12 +89,12 @@
       "id": 94,
       "type": "MarkdownNote",
       "pos": [
-        -989.5350176559868,
-        2038.7640824241444
+        -1415.2659112372792,
+        1702.0145795840144
       ],
       "size": [
         270,
-        264.703125
+        264.6875
       ],
       "flags": {},
       "order": 1,
@@ -119,15 +119,15 @@
       "id": 238,
       "type": "c3c58f7e-2004-43ae-8b06-a956294bf7f4",
       "pos": [
-        1184.3030218015847,
-        1050.159182149031
+        1184.302974310761,
+        1050.1592197199193
       ],
       "size": [
-        655.046875,
-        716.1875
+        655,
+        716.09375
       ],
       "flags": {},
-      "order": 9,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -220,8 +220,8 @@
       "id": 264,
       "type": "CLIPLoader",
       "pos": [
-        -437.834983966991,
-        1193.322629658013
+        -437.83477358420714,
+        1193.3227769298574
       ],
       "size": [
         430,
@@ -271,8 +271,8 @@
       "id": 265,
       "type": "LoadImage",
       "pos": [
-        -434.20359818131647,
-        1423.7375307507134
+        -434.20337732887583,
+        1423.7374129499674
       ],
       "size": [
         420,
@@ -318,15 +318,15 @@
       "id": 266,
       "type": "TextGenerate",
       "pos": [
-        78.71835338002518,
-        1310.8791137781254
+        78.7183171786528,
+        1310.8792531595154
       ],
       "size": [
-        442.734375,
+        442.65625,
         458.59375
       ],
       "flags": {},
-      "order": 6,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -397,15 +397,15 @@
       "id": 267,
       "type": "PreviewAny",
       "pos": [
-        593.5387973306445,
-        1208.1821050329886
+        593.5387570871387,
+        1208.1821408064382
       ],
       "size": [
         500,
         600
       ],
       "flags": {},
-      "order": 8,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -446,12 +446,12 @@
       "id": 269,
       "type": "PrimitiveInt",
       "pos": [
-        -435.1236958608678,
-        1061.8380677291511
+        -435.12363602811774,
+        1061.8382289463123
       ],
       "size": [
-        421.625,
-        84.484375
+        421.5625,
+        84.375
       ],
       "flags": {},
       "order": 4,
@@ -474,7 +474,7 @@
         "Node name for S&R": "PrimitiveInt"
       },
       "widgets_values": [
-        -982607550295058,
+        600825435222794,
         "randomize"
       ]
     },
@@ -482,15 +482,15 @@
       "id": 270,
       "type": "TextGenerate",
       "pos": [
-        1670.864107739266,
-        2028.607288917629
+        1670.8638626495099,
+        2028.6070553115394
       ],
       "size": [
         380.46875,
         486.578125
       ],
       "flags": {},
-      "order": 11,
+      "order": 13,
       "mode": 0,
       "showAdvanced": true,
       "inputs": [
@@ -563,15 +563,15 @@
       "id": 271,
       "type": "StringConcatenate",
       "pos": [
-        1235.1131831761945,
-        2028.7863253854323
+        1235.112968920003,
+        2028.7860577771717
       ],
       "size": [
-        381.84375,
+        381.71875,
         527.34375
       ],
       "flags": {},
-      "order": 10,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -598,7 +598,7 @@
         "Node name for S&R": "StringConcatenate"
       },
       "widgets_values": [
-        "You must enter the title of a 3D model file we're saving, without the extension file, and without numbers, only title. I'll provide you with a description of the item. \nReply with no more than 3 words to describe it.\nThere must be no spaces, instead of spaces insert a hyphen\n\nDescription:",
+        "You must enter the title of a 3D model file we're saving, without the extension file, and without numbers, only title. I'll provide you with a description of the item. \nReply with no more than 3 words to describe it.\nThere must be no spaces, instead of spaces insert a hyphen (-). Example: old-radio-vintage\n\nDescription:",
         "",
         ""
       ]
@@ -607,17 +607,26 @@
       "id": 272,
       "type": "StringConcatenate",
       "pos": [
-        -412.4612711067251,
-        1960.0725352602742
+        -412.4612215364232,
+        1960.0720794774086
       ],
       "size": [
-        734.484375,
-        656.296875
+        734.375,
+        656.25
       ],
       "flags": {},
-      "order": 5,
+      "order": 7,
       "mode": 0,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 434
+        }
+      ],
       "outputs": [
         {
           "name": "STRING",
@@ -634,8 +643,8 @@
         "Node name for S&R": "StringConcatenate"
       },
       "widgets_values": [
-        "Generate ONE prompt for a single 3D game asset.\nChoose a RANDOM object from a DIFFERENT category each time (tools, electronics, toys, kitchen, vintage, broken, furniture, junk). Avoid similar objects.\n\nRules: simple, clear, recognizable object. Single object. Smooth mid-poly, clean shapes, soft edges, no small details, prompt with less then 100 words.\nMust be FULLY COLORED with simple textures. Always specify materials and colors. Never grey.\n\nOutput this format:\n\n3D model of a [object], smooth mid-poly geometry.\nClean simple shapes, soft rounded edges, no small details, clear silhouette.\nColored materials with simple textures: [materials and colors].\nGame asset style, easy to recreate.\nCentered object, dark neutral background, studio lighting.",
-        "subject: plane",
+        "Generate ONE prompt for a single 3D game asset.\n\nRules: simple, clear, recognizable object. Single object. Smooth mid-poly, clean shapes, soft edges, no small details, prompt with less then 100 words.\nMust be FULLY COLORED with simple textures. Always specify materials and colors. Never grey.\n\nOutput following this format:\n\n3D model of a [object], smooth mid-poly geometry.\nClean simple shapes, soft rounded edges, no small details, clear silhouette.\nColored materials with simple textures: [materials and colors].\nGame asset style, easy to recreate.\nCentered object, dark neutral background, studio lighting.\n\nIf the subject is just an object, prompt to create; \nif the subject is a category is given, choose an object that is part of the given category and prompt to create it.\n\nthe subject: ",
+        "",
         ""
       ]
     },
@@ -643,15 +652,15 @@
       "id": 273,
       "type": "PreviewAny",
       "pos": [
-        369.8435459741628,
-        1963.677544319392
+        369.8433810378932,
+        1963.6772802499645
       ],
       "size": [
-        560.90625,
-        647.703125
+        560.78125,
+        647.65625
       ],
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -682,15 +691,15 @@
       "id": 275,
       "type": "Preview3D",
       "pos": [
-        3408.2490816908994,
-        1037.1915134918029
+        3408.248648878959,
+        1037.1915540899622
       ],
       "size": [
-        1491.453125,
-        972.390625
+        1491.40625,
+        972.34375
       ],
       "flags": {},
-      "order": 18,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -711,7 +720,7 @@
           "widget": {
             "name": "model_file"
           },
-          "link": 421
+          "link": 432
         }
       ],
       "outputs": [],
@@ -720,8 +729,8 @@
         "cnr_id": "comfy-core",
         "ver": "0.19.3",
         "Node name for S&R": "Preview3D",
-        "Last Time Model File": "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/vintage-wrench-model/comfy_776436c8/comfy_776436c8_textured.glb",
-        "Resource Folder": "theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/vintage-wrench-model/comfy_776436c8",
+        "Last Time Model File": "comfy_9620c61b",
+        "Resource Folder": "theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/retro-desktop-computer/comfy_60678c81",
         "Scene Config": {
           "showGrid": true,
           "backgroundColor": "#282828",
@@ -756,7 +765,7 @@
         }
       },
       "widgets_values": [
-        "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/vintage-wrench-model/comfy_776436c8/comfy_776436c8_textured.glb",
+        "comfy_9620c61b",
         ""
       ]
     },
@@ -764,15 +773,15 @@
       "id": 281,
       "type": "PreviewAny",
       "pos": [
-        3403.812224231492,
-        2067.480580818936
+        3403.8117415282823,
+        2067.4802975497796
       ],
       "size": [
         716.40625,
-        337.828125
+        337.8125
       ],
       "flags": {},
-      "order": 16,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -804,15 +813,15 @@
       "id": 284,
       "type": "PreviewAny",
       "pos": [
-        4187.147765055414,
-        2062.129831135664
+        4187.146652302848,
+        2062.129680370555
       ],
       "size": [
         716.40625,
-        337.828125
+        337.8125
       ],
       "flags": {},
-      "order": 17,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -844,15 +853,15 @@
       "id": 286,
       "type": "Z3VHy3DFromImage",
       "pos": [
-        2655.473354673284,
-        1273.2875781495286
+        2655.472572074173,
+        1273.2876438982985
       ],
       "size": [
-        606.65625,
+        606.5625,
         323.59375
       ],
       "flags": {},
-      "order": 15,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -881,15 +890,15 @@
           "name": "model_path",
           "type": "STRING",
           "links": [
-            409,
-            421
+            409
           ]
         },
         {
           "name": "job_id",
           "type": "STRING",
           "links": [
-            411
+            411,
+            432
           ]
         },
         {
@@ -905,7 +914,7 @@
       },
       "widgets_values": [
         "/home/theboss/hy3d/Hunyuan3D-2.1-main/.venv/bin/python",
-        "/home/theboss/hy3d/Hunyuan3D-2.1-main/z3v_official_v3Comfyui.py",
+        "/home/theboss/hy3d/Hunyuan3D-2.1-main/z3v_official_Script_Comfyui.py",
         "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output",
         true,
         20
@@ -915,15 +924,15 @@
       "id": 287,
       "type": "PreviewAny",
       "pos": [
-        3401.9522676105826,
-        2468.958755832472
+        3401.951482606548,
+        2468.958625614654
       ],
       "size": [
         716.40625,
-        337.828125
+        337.8125
       ],
       "flags": {},
-      "order": 19,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -955,15 +964,15 @@
       "id": 288,
       "type": "PreviewAny",
       "pos": [
-        4181.246148511518,
-        2472.817520464613
+        4181.2446961401365,
+        2472.817713765559
       ],
       "size": [
         716.40625,
-        337.828125
+        337.8125
       ],
       "flags": {},
-      "order": 20,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -995,15 +1004,15 @@
       "id": 290,
       "type": "PreviewAny",
       "pos": [
-        2105.7764683715204,
-        2029.9579291469786
+        2105.7757416408467,
+        2029.9576412531867
       ],
       "size": [
-        345.953125,
+        345.9375,
         514.53125
       ],
       "flags": {},
-      "order": 13,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -1036,15 +1045,15 @@
       "id": 292,
       "type": "StringConcatenate",
       "pos": [
-        2659.192714116368,
-        1717.1100462021664
+        2669.5599522260263,
+        1736.1159824456117
       ],
       "size": [
         602.96875,
         220.09375
       ],
       "flags": {},
-      "order": 14,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -1075,6 +1084,70 @@
         "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/",
         "",
         ""
+      ]
+    },
+    {
+      "id": 298,
+      "type": "MarkdownNote",
+      "pos": [
+        -1126.5864598132102,
+        2145.74755240152
+      ],
+      "size": [
+        274.21875,
+        228.171875
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Aspect Ratios",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.7",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Choose what you want create.\n\nYou can indicate a single item or a category and let llm choose an item, \n\nfor example: \"fork\" vs \"a kitchen items\", \n\nso write it in the box \"what you want to create?\" ->"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 300,
+      "type": "PrimitiveString",
+      "pos": [
+        -814.6629532055664,
+        2204.343490193225
+      ],
+      "size": [
+        270,
+        84.125
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            434
+          ]
+        }
+      ],
+      "title": "what you want to create?",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.20.3",
+        "Node name for S&R": "PrimitiveString"
+      },
+      "widgets_values": [
+        "a sport car"
       ]
     }
   ],
@@ -1232,14 +1305,6 @@
       "STRING"
     ],
     [
-      421,
-      286,
-      1,
-      275,
-      2,
-      "STRING"
-    ],
-    [
       422,
       292,
       0,
@@ -1252,6 +1317,22 @@
       290,
       0,
       292,
+      0,
+      "STRING"
+    ],
+    [
+      432,
+      286,
+      2,
+      275,
+      2,
+      "STRING"
+    ],
+    [
+      434,
+      300,
+      0,
+      272,
       0,
       "STRING"
     ]
@@ -1347,6 +1428,19 @@
       "color": "#8A8",
       "font_size": 24,
       "flags": {}
+    },
+    {
+      "id": 15,
+      "title": "Choose single object or category",
+      "bounding": [
+        -1180.658455125458,
+        2030.2702051115707,
+        710.691187313133,
+        375.7514935106001
+      ],
+      "color": "#8A8",
+      "font_size": 24,
+      "flags": {}
     }
   ],
   "definitions": {
@@ -1355,9 +1449,9 @@
         "id": "c3c58f7e-2004-43ae-8b06-a956294bf7f4",
         "version": 1,
         "state": {
-          "lastGroupId": 14,
-          "lastNodeId": 292,
-          "lastLinkId": 424,
+          "lastGroupId": 15,
+          "lastNodeId": 300,
+          "lastLinkId": 434,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -1513,8 +1607,8 @@
             "id": 219,
             "type": "CLIPLoader",
             "pos": [
-              -589.9999818532466,
-              1369.999874140703
+              -589.9999959203972,
+              1369.9999214458053
             ],
             "size": [
               280,
@@ -1585,12 +1679,12 @@
             "id": 220,
             "type": "VAELoader",
             "pos": [
-              -579.9999415183737,
-              1619.9999758464487
+              -579.999969078486,
+              1620.0000182810106
             ],
             "size": [
               280,
-              106.65625
+              106.640625
             ],
             "flags": {},
             "order": 5,
@@ -1654,12 +1748,12 @@
             "id": 222,
             "type": "ModelSamplingAuraFlow",
             "pos": [
-              1039.999693223329,
-              1109.9999076284257
+              1039.9996707680152,
+              1109.999883900575
             ],
             "size": [
               250,
-              104
+              103.984375
             ],
             "flags": {},
             "order": 7,
@@ -1707,8 +1801,8 @@
             "id": 226,
             "type": "UNETLoader",
             "pos": [
-              -589.9999818532466,
-              1139.9999028607685
+              -589.9999959203972,
+              1139.9998782944224
             ],
             "size": [
               280,
@@ -1778,8 +1872,8 @@
             "id": 227,
             "type": "CLIPTextEncode",
             "pos": [
-              -199.99991253206264,
-              1140.0000300151573
+              -199.99986782597978,
+              1140.0000218475661
             ],
             "size": [
               360,
@@ -1844,8 +1938,8 @@
             "id": 228,
             "type": "CLIPTextEncode",
             "pos": [
-              -199.99991253206264,
-              1609.9999797391895
+              -199.99986782597978,
+              1610.0000488603569
             ],
             "size": [
               370,
@@ -1901,12 +1995,12 @@
             "id": 231,
             "type": "VAEDecode",
             "pos": [
-              1319.999672681819,
-              1119.9999078820238
+              1319.9996184439242,
+              1119.9998820318574
             ],
             "size": [
               225,
-              96
+              95.984375
             ],
             "flags": {
               "collapsed": false
@@ -1961,12 +2055,12 @@
             "id": 232,
             "type": "EmptySD3LatentImage",
             "pos": [
-              -549.9999089689819,
-              1929.9999878543306
+              -549.9998885527522,
+              1929.9999890613958
             ],
             "size": [
               230,
-              168
+              167.984375
             ],
             "flags": {},
             "order": 14,
@@ -2028,12 +2122,12 @@
             "id": 230,
             "type": "KSampler",
             "pos": [
-              1039.999693223329,
-              1249.9998987397837
+              1039.9996707680152,
+              1249.999886449158
             ],
             "size": [
               250,
-              341.3125
+              341.296875
             ],
             "flags": {},
             "order": 12,
@@ -2120,7 +2214,7 @@
               }
             },
             "widgets_values": [
-              54219365650110,
+              580797172242081,
               "randomize",
               50,
               4,
@@ -2133,12 +2227,12 @@
             "id": 224,
             "type": "PrimitiveInt",
             "pos": [
-              299.99989213985043,
-              1150.0000261224168
+              299.99990236265666,
+              1149.99999126822
             ],
             "size": [
               230,
-              104
+              103.984375
             ],
             "flags": {},
             "order": 0,
@@ -2181,12 +2275,12 @@
             "id": 223,
             "type": "PrimitiveFloat",
             "pos": [
-              299.99989213985043,
-              1290.0000158516618
+              299.99990236265666,
+              1289.999993816803
             ],
             "size": [
               230,
-              104
+              103.984375
             ],
             "flags": {},
             "order": 1,
@@ -2228,8 +2322,8 @@
             "id": 229,
             "type": "PrimitiveBoolean",
             "pos": [
-              299.99989213985043,
-              2059.9999814763164
+              299.99990236265666,
+              2059.9998786361816
             ],
             "size": [
               230,
@@ -2287,12 +2381,12 @@
             "id": 225,
             "type": "PrimitiveInt",
             "pos": [
-              289.999924365906,
-              1539.999874305533
+              289.9999365308315,
+              1539.9998609669783
             ],
             "size": [
               230,
-              104
+              103.984375
             ],
             "flags": {},
             "order": 2,
@@ -2336,12 +2430,12 @@
             "id": 218,
             "type": "PrimitiveFloat",
             "pos": [
-              289.999924365906,
-              1669.999956382746
+              289.9999365308315,
+              1669.999865384279
             ],
             "size": [
               230,
-              104
+              103.984375
             ],
             "flags": {},
             "order": 3,
@@ -2383,12 +2477,12 @@
             "id": 221,
             "type": "LoraLoaderModelOnly",
             "pos": [
-              64.64070129161036,
-              1842.3183017086235
+              64.64069735741992,
+              1842.318303020868
             ],
             "size": [
-              664.765625,
-              148.21875
+              664.75,
+              148.203125
             ],
             "flags": {},
             "order": 6,
@@ -2453,12 +2547,12 @@
             "id": 233,
             "type": "ComfySwitchNode",
             "pos": [
-              709.9999101389961,
-              1170.0000238653872
+              709.9998759888379,
+              1170.0000162414135
             ],
             "size": [
               230,
-              124
+              124.140625
             ],
             "flags": {},
             "order": 15,
@@ -2522,12 +2616,12 @@
             "id": 240,
             "type": "ComfySwitchNode",
             "pos": [
-              709.9999101389961,
-              1415.000011420018
+              709.9998759888379,
+              1415.0000422344058
             ],
             "size": [
               230,
-              124
+              124.140625
             ],
             "flags": {},
             "order": 16,
@@ -2591,12 +2685,12 @@
             "id": 243,
             "type": "ComfySwitchNode",
             "pos": [
-              709.9999101389961,
-              1659.9999602754865
+              709.9998759888379,
+              1659.9998385423678
             ],
             "size": [
               230,
-              124
+              124.140625
             ],
             "flags": {},
             "order": 17,
@@ -3005,10 +3099,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5846151300000064,
+      "scale": 0.36300000000001126,
       "offset": [
-        -673.1701003218495,
-        -791.1221678360496
+        1956.7280641225502,
+        -296.96782970005484
       ]
     },
     "frontendVersion": "1.42.15",
