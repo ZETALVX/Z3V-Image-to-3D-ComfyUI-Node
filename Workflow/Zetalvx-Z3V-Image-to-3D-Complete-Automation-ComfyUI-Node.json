@@ -1,19 +1,19 @@
 {
   "id": "b2efad80-26f9-486d-9c4d-1fedc91e6e64",
   "revision": 0,
-  "last_node_id": 290,
-  "last_link_id": 421,
+  "last_node_id": 292,
+  "last_link_id": 424,
   "nodes": [
     {
       "id": 67,
       "type": "MarkdownNote",
       "pos": [
-        -1126.3320129172873,
-        1148.3863153782365
+        -1126.3320128383953,
+        1148.3863947370555
       ],
       "size": [
         570,
-        823.1875
+        823.171875
       ],
       "flags": {},
       "order": 0,
@@ -38,15 +38,15 @@
       "id": 60,
       "type": "SaveImage",
       "pos": [
-        1880.9140380950253,
-        1061.571079281917
+        1883.7694792279447,
+        1064.4270181917034
       ],
       "size": [
-        689.484375,
-        738.890625
+        689.46875,
+        738.875
       ],
       "flags": {},
-      "order": 18,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -89,12 +89,12 @@
       "id": 94,
       "type": "MarkdownNote",
       "pos": [
-        -989.5350109305564,
-        2038.763987627693
+        -989.5350176559868,
+        2038.7640824241444
       ],
       "size": [
         270,
-        264.71875
+        264.703125
       ],
       "flags": {},
       "order": 1,
@@ -119,12 +119,12 @@
       "id": 238,
       "type": "c3c58f7e-2004-43ae-8b06-a956294bf7f4",
       "pos": [
-        1184.3032748831133,
-        1050.1590942223088
+        1184.3030218015847,
+        1050.159182149031
       ],
       "size": [
-        655.0625,
-        716.203125
+        655.046875,
+        716.1875
       ],
       "flags": {},
       "order": 9,
@@ -220,8 +220,8 @@
       "id": 264,
       "type": "CLIPLoader",
       "pos": [
-        -437.83498524747563,
-        1193.3226646100734
+        -437.834983966991,
+        1193.322629658013
       ],
       "size": [
         430,
@@ -271,8 +271,8 @@
       "id": 265,
       "type": "LoadImage",
       "pos": [
-        -434.20353285218755,
-        1423.7375627095873
+        -434.20359818131647,
+        1423.7375307507134
       ],
       "size": [
         420,
@@ -318,12 +318,12 @@
       "id": 266,
       "type": "TextGenerate",
       "pos": [
-        78.71844776507396,
-        1310.8790611914671
+        78.71835338002518,
+        1310.8791137781254
       ],
       "size": [
-        442.75,
-        458.65625
+        442.734375,
+        458.59375
       ],
       "flags": {},
       "order": 6,
@@ -397,8 +397,8 @@
       "id": 267,
       "type": "PreviewAny",
       "pos": [
-        593.5388038670098,
-        1208.182158449705
+        593.5387973306445,
+        1208.1821050329886
       ],
       "size": [
         500,
@@ -446,12 +446,12 @@
       "id": 269,
       "type": "PrimitiveInt",
       "pos": [
-        -435.12363385652134,
-        1061.8380472168
+        -435.1236958608678,
+        1061.8380677291511
       ],
       "size": [
-        421.640625,
-        84.5
+        421.625,
+        84.484375
       ],
       "flags": {},
       "order": 4,
@@ -474,7 +474,7 @@
         "Node name for S&R": "PrimitiveInt"
       },
       "widgets_values": [
-        103690259552885,
+        -982607550295058,
         "randomize"
       ]
     },
@@ -482,15 +482,15 @@
       "id": 270,
       "type": "TextGenerate",
       "pos": [
-        1670.8644596294566,
-        2028.6073015009224
+        1670.864107739266,
+        2028.607288917629
       ],
       "size": [
-        380.484375,
-        486.65625
+        380.46875,
+        486.578125
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "showAdvanced": true,
       "inputs": [
@@ -563,11 +563,11 @@
       "id": 271,
       "type": "StringConcatenate",
       "pos": [
-        1235.1134163199358,
-        2028.7863696925394
+        1235.1131831761945,
+        2028.7863253854323
       ],
       "size": [
-        381.859375,
+        381.84375,
         527.34375
       ],
       "flags": {},
@@ -598,7 +598,7 @@
         "Node name for S&R": "StringConcatenate"
       },
       "widgets_values": [
-        "You must enter the title of a 3D model file we're saving, without the extension file, and without numbers, only title. I'll provide you with a description of the item. \nReply with no more than 3 words to describe it.\n\nDescription:",
+        "You must enter the title of a 3D model file we're saving, without the extension file, and without numbers, only title. I'll provide you with a description of the item. \nReply with no more than 3 words to describe it.\nThere must be no spaces, instead of spaces insert a hyphen\n\nDescription:",
         "",
         ""
       ]
@@ -607,12 +607,12 @@
       "id": 272,
       "type": "StringConcatenate",
       "pos": [
-        -412.4612435671746,
-        1960.072630426555
+        -412.4612711067251,
+        1960.0725352602742
       ],
       "size": [
-        734.5,
-        656.3125
+        734.484375,
+        656.296875
       ],
       "flags": {},
       "order": 5,
@@ -635,7 +635,7 @@
       },
       "widgets_values": [
         "Generate ONE prompt for a single 3D game asset.\nChoose a RANDOM object from a DIFFERENT category each time (tools, electronics, toys, kitchen, vintage, broken, furniture, junk). Avoid similar objects.\n\nRules: simple, clear, recognizable object. Single object. Smooth mid-poly, clean shapes, soft edges, no small details, prompt with less then 100 words.\nMust be FULLY COLORED with simple textures. Always specify materials and colors. Never grey.\n\nOutput this format:\n\n3D model of a [object], smooth mid-poly geometry.\nClean simple shapes, soft rounded edges, no small details, clear silhouette.\nColored materials with simple textures: [materials and colors].\nGame asset style, easy to recreate.\nCentered object, dark neutral background, studio lighting.",
-        "subject: household objects from the kitchen, be they furnishings, furniture or objects of common use.",
+        "subject: plane",
         ""
       ]
     },
@@ -643,12 +643,12 @@
       "id": 273,
       "type": "PreviewAny",
       "pos": [
-        369.84366072976877,
-        1963.6774910374797
+        369.8435459741628,
+        1963.677544319392
       ],
       "size": [
-        560.921875,
-        647.71875
+        560.90625,
+        647.703125
       ],
       "flags": {},
       "order": 7,
@@ -682,15 +682,15 @@
       "id": 275,
       "type": "Preview3D",
       "pos": [
-        3408.249365636844,
-        1037.1915055682762
+        3408.2490816908994,
+        1037.1915134918029
       ],
       "size": [
-        1491.46875,
-        972.40625
+        1491.453125,
+        972.390625
       ],
       "flags": {},
-      "order": 15,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -720,8 +720,8 @@
         "cnr_id": "comfy-core",
         "ver": "0.19.3",
         "Node name for S&R": "Preview3D",
-        "Last Time Model File": "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/comfy_37c53e2a/comfy_37c53e2a_textured.glb",
-        "Resource Folder": "theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/comfy_37c53e2a",
+        "Last Time Model File": "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/vintage-wrench-model/comfy_776436c8/comfy_776436c8_textured.glb",
+        "Resource Folder": "theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/vintage-wrench-model/comfy_776436c8",
         "Scene Config": {
           "showGrid": true,
           "backgroundColor": "#282828",
@@ -756,7 +756,7 @@
         }
       },
       "widgets_values": [
-        "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/comfy_37c53e2a/comfy_37c53e2a_textured.glb",
+        "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/vintage-wrench-model/comfy_776436c8/comfy_776436c8_textured.glb",
         ""
       ]
     },
@@ -764,15 +764,15 @@
       "id": 281,
       "type": "PreviewAny",
       "pos": [
-        3403.812769594803,
-        2067.4805741107375
+        3403.812224231492,
+        2067.480580818936
       ],
       "size": [
-        716.421875,
-        337.84375
+        716.40625,
+        337.828125
       ],
       "flags": {},
-      "order": 13,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -804,15 +804,15 @@
       "id": 284,
       "type": "PreviewAny",
       "pos": [
-        4187.148879287281,
-        2062.129751259009
+        4187.147765055414,
+        2062.129831135664
       ],
       "size": [
-        716.421875,
-        337.84375
+        716.40625,
+        337.828125
       ],
       "flags": {},
-      "order": 14,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -844,21 +844,29 @@
       "id": 286,
       "type": "Z3VHy3DFromImage",
       "pos": [
-        2655.473722006617,
-        1273.2876262820673
+        2655.473354673284,
+        1273.2875781495286
       ],
       "size": [
-        606.671875,
-        323.609375
+        606.65625,
+        323.59375
       ],
       "flags": {},
-      "order": 11,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
           "name": "image",
           "type": "IMAGE",
           "link": 407
+        },
+        {
+          "name": "output_dir",
+          "type": "STRING",
+          "widget": {
+            "name": "output_dir"
+          },
+          "link": 422
         }
       ],
       "outputs": [
@@ -907,15 +915,15 @@
       "id": 287,
       "type": "PreviewAny",
       "pos": [
-        3401.9527342837832,
-        2468.958786668729
+        3401.9522676105826,
+        2468.958755832472
       ],
       "size": [
-        716.421875,
-        337.84375
+        716.40625,
+        337.828125
       ],
       "flags": {},
-      "order": 16,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -947,15 +955,15 @@
       "id": 288,
       "type": "PreviewAny",
       "pos": [
-        4181.246387445928,
-        2472.817437753698
+        4181.246148511518,
+        2472.817520464613
       ],
       "size": [
-        716.421875,
-        337.84375
+        716.40625,
+        337.828125
       ],
       "flags": {},
-      "order": 17,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -987,15 +995,15 @@
       "id": 290,
       "type": "PreviewAny",
       "pos": [
-        2105.776693208933,
-        2029.9579241257366
+        2105.7764683715204,
+        2029.9579291469786
       ],
       "size": [
-        345.96875,
+        345.953125,
         514.53125
       ],
       "flags": {},
-      "order": 19,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -1008,7 +1016,9 @@
         {
           "name": "STRING",
           "type": "STRING",
-          "links": null
+          "links": [
+            424
+          ]
         }
       ],
       "properties": {
@@ -1020,6 +1030,51 @@
         null,
         null,
         null
+      ]
+    },
+    {
+      "id": 292,
+      "type": "StringConcatenate",
+      "pos": [
+        2659.192714116368,
+        1717.1100462021664
+      ],
+      "size": [
+        602.96875,
+        220.09375
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string_b",
+          "type": "STRING",
+          "widget": {
+            "name": "string_b"
+          },
+          "link": 424
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            422
+          ]
+        }
+      ],
+      "title": "Output_dir",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.20.3",
+        "Node name for S&R": "StringConcatenate"
+      },
+      "widgets_values": [
+        "/home/theboss/hy3d/Hunyuan3D-2.1-main/comfyui_output/",
+        "",
+        ""
       ]
     }
   ],
@@ -1183,6 +1238,22 @@
       275,
       2,
       "STRING"
+    ],
+    [
+      422,
+      292,
+      0,
+      286,
+      1,
+      "STRING"
+    ],
+    [
+      424,
+      290,
+      0,
+      292,
+      0,
+      "STRING"
     ]
   ],
   "groups": [
@@ -1263,6 +1334,19 @@
       "color": "#8A8",
       "font_size": 24,
       "flags": {}
+    },
+    {
+      "id": 14,
+      "title": "Create the output folder with the name of the model",
+      "bounding": [
+        2641.257854480938,
+        1649.321290498347,
+        649.3272887957783,
+        330.77584297544126
+      ],
+      "color": "#8A8",
+      "font_size": 24,
+      "flags": {}
     }
   ],
   "definitions": {
@@ -1271,9 +1355,9 @@
         "id": "c3c58f7e-2004-43ae-8b06-a956294bf7f4",
         "version": 1,
         "state": {
-          "lastGroupId": 13,
-          "lastNodeId": 290,
-          "lastLinkId": 421,
+          "lastGroupId": 14,
+          "lastNodeId": 292,
+          "lastLinkId": 424,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -2036,7 +2120,7 @@
               }
             },
             "widgets_values": [
-              457183487714036,
+              54219365650110,
               "randomize",
               50,
               4,
@@ -2921,13 +3005,13 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.3300000000000005,
+      "scale": 0.5846151300000064,
       "offset": [
-        2136.247627706368,
-        -297.78974400676134
+        -673.1701003218495,
+        -791.1221678360496
       ]
     },
-    "frontendVersion": "1.42.11",
+    "frontendVersion": "1.42.15",
     "workflowRendererVersion": "Vue-corrected",
     "ue_links": [],
     "links_added_by_ue": [],
